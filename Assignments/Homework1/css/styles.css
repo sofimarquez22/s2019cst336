@@ -1,0 +1,85 @@
+body{
+    background-color:black;
+    color:gray;
+}
+header, main, nav, footer, #content{
+    text-align: center;
+}
+
+nav a{
+    padding:15px;
+    padding-bottom:4px;
+    font-size:1.8em;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover, #standOut{
+    border-bottom:2px violet solid;
+    font-size: 2em;
+    transition: .9s;
+}
+#me img, #me1 img{
+    width:40%;
+}
+.flex{
+    display:flex;
+    flex-direction:column;
+    
+}
+#me, #me1{
+    float:right
+    padding-left: 5%;
+    padding-top:2%;
+}
+#welcomeText, #welcomeText1{
+    float:left;
+    flex: 3;
+}
+#welcomeText, #welcomeText1{
+    text-align: left;
+    padding-left: 10%;
+    padding-top:2%;
+    font-size:1.3em;
+    width:50%;
+}
+footer{
+    clear:left;
+    font-size:1em;
+    color: #e9cdf2;
+}
+footer img{
+    padding-top:0.5%;
+    width:10%;
+    height:auto;
+}
+table{
+    margin:0px auto;
+}
+#table-header{
+    background-color:#4d7dc6;
+}
+.table-row{
+    background-color: #5991e5;
+}
+td{
+    padding-right:10px;
+    font-size:1.3em;
+}
+td strong{
+    color:black;
+}
+ul{
+    text-align:left;
+    padding-left:200px;
+}
+.hobby{
+    color:white;
+}
+h1{
+    font-family: 'Jacques Francois', serif;
+    font-size: 4em;
+    margin-bottom:0px;
+}
+#half{
+    width:80%;
+}
