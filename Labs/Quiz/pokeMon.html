@@ -243,8 +243,16 @@
                 //$("#results6").html(selectedLabelHtml6 + " is NOT correct").css("color", "red");
             }
             var total = ((correct/6)*100);
-            $("h3").html(total);
-            correct = 0; //like
+            $("h3").html('You got ' + total + '%');
+            if(total >90)
+            {
+                $("h3").html('You got ' + total + '%'+ ' Congradulations! You are a Pokemon Master :D');
+            }
+            else
+            {
+                $("h3").html('You got ' + total + '%');
+            }
+            correct = 0; //like this lol
             total = 0;
             
             console.log("selected name value for question 1", selectedNameValue1);
@@ -254,12 +262,11 @@
             console.log("selected name value for question 5", selectedNameValue5);
             console.log("selected name value for question 6", selectedNameValue6);
         });
+        
+        
     </script>
 </body>
 
 </html>
-
-
-
 
 <!--https://s2019cst336-blancamarquez.c9users.io/s2019cst336/Labs/Quiz/pokeMon.html-->

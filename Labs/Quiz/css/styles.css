@@ -9,9 +9,10 @@
 }
 body
 {
-    background-color: #ffcf68;
+    background-color: #94bcfc;
+    
 }
-.input-group label
+.top h1, h3
 {
    text-align: center;
 }
@@ -22,15 +23,21 @@ p
 }
 .checker
 {
-    margin
+    margin-left:50%;
+    margin-right:50%;
     color: #71c120;
     width:65px;
     height:auto;
 }
 .top{
-    background-color:#edeff2;
+    text-align: center;
+    font-family: 'arial rounded mt bold';
+    font-style: italic;
+    font-size: 180%;
+    background-color:#b5cbe0;
     color:#20385e;
-    height:70px;
+    border-radius:20px;
+    height:90px;
     width:auto;
-    opacity: 1;
 }
+
