@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bachelor Quiz</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="pancakes">
+    <form name="myForm" onsubmit="return validateForm()">
+        <div class="input-group">
+            <!--<label for="feedback" align="center"><h1>Would you get eliminated from the Bachelor/Bachelorette?</h1></label>-->
+            <div id = "top">
+                <h1>Would you get eliminated from the Bachelor/Bachelorette?</h1>
+            </div>
+            <div>
+                <p>Question #1: Are you male or female?</p>
+            </div>
+            <div id="first">
+                <div>
+                    <div>
+                        <input type="radio" id="option1" name="question1" value="1">
+                        <label for="option1">Female</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="option2" name="question1" value="2">
+                        <label for="option2">Male</label>
+                    </div>
+                </div>
+                <div id="result1"></div>
+            </div>
+            
+            <div>
+               <p>Question #2: What category does your profession fall under?</p> 
+            </div>
+            <div id="second">
+                <div>
+                    <div>
+                        <input type="radio" id="option3" name="question2" value="1">
+                        <label for="option3">Psychology</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="option4" name="question2" value="2">
+                        <label for="option4">Medical</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="option5" name="question2" value="3">
+                        <label for="option5">Law</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="option6" name="question2" value="4">
+                        <label for="option6">Self Employed</label>
+                    </div>
+                </div>
+                
+                <div id="result2"></div>
+            </div>
+            
+            <div>
+               <p>Question #3: What's your idea of a perfect date?</p> 
+            </div>
+            <div id="third">
+                <div>
+                    <div>
+                        <input type="text" id="textBox" name="question3" required>
+                        <label for="textBox"></label>
+                    </div>
+                </div>
+                <div id="result3"></div>
+            </div>
+            
+            <div>
+               <p>Question #4: What hair color do you have?</p> 
+            </div>
+            <div id="fourth">
+                <select>
+                    <option value="Blond" name="question4">Blond</option>
+                    <option value="Brown" name="question4">Brown</option>
+                    <option value="Red" name="question4">Red</option>
+                    <option value="Black" name="question4">Black</option>
+                </select>
+                <div id="result4"></div>
+            </div>
+            <div id="fourthChoice"></div>
+            
+            <div>
+               <p>Question #5: Which 3 Characteristics describe you best?</p> 
+            </div>
+            <div id="fifth">
+                <div>
+                    <div>
+                        <input type="checkbox" id ="option7" name="question5" value="humor">Good Sense of Humor<br>
+                        <label for="option7"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id ="option8" name="question5" value="confidence">Confident<br>
+                        <label for="option8"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id ="option9" name="question5" value="resource">Resourceful<br>
+                        <label for="option9"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id ="option10" name="question5" value="true">True to Yourself<br>
+                        <label for="option10"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id ="option11" name="question5" value="honest">Honest<br>
+                        <label for="option11"></label>
+                    </div>
+                </div>
+                <div id="result5"></div>
+            </div>
+            
+            <div>
+               <p>Question #6: What would you order for dinner at a restraunt?</p> 
+            </div>
+            <div id="sixth">
+                <div>
+                    <div>
+                        <input type="radio" id="option12" name="question6" value="1">
+                        <label for="option12">Steak With Wine Sauce and Potato Gratin</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="option13" name="question6" value="2">
+                        <label for="option13">Italian-Style Grilled Octopus</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="option14" name="question6" value="3">
+                        <label for="option14">Stilton and Pear Gnocchi</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="option15" name="question6" value="4">
+                        <label for="option15">Crispy Breaded Pork Chops</label>
+                    </div>
+                </div>
+                <div id="result6"></div>
+            </div>
+            
+            <div>
+                <button class="checker" type="button">Submit</button>
+            </div>
+            
+            <div id="endResult">
+            </div>
+        </div>
+    </form>
+
+    <!--Whether or not correct goes here-->
+    <div id="results"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        var correctAnswer1 = "Self-Employed";
+        var correctAnswer2 = "Blond";
+        var correctAnswer3 = "True to Yourself";
+        var correctAnswer4 = "Stilton and Pear Gnocchi";
+        
+        
+        function validateForm() {
+            var x = document.forms["myForm"]["question3"].value;
+            if (x == "") {
+                alert("Must be filled out");
+                return false;
+            }
+        }
+        
+        var rightAnswer = 0;
+        $("button.checker").on("click", function(e) {
+            e.preventDefault()
+            var selectedNameValue1 = $("input[name='question2']:checked").val();
+            if(selectedNameValue1 === correctAnswer1){
+                rightAnswer++;
+            }
+            
+            var selectedNameValue2 = $("input[name='question4']:selected").val();
+            if(selectedNameValue2 === correctAnswer2){
+                rightAnswer++;
+            }
+            
+            var selectedNameValue3 = $("input[name='question5']:checked").val();
+            if(selectedNameValue3 === correctAnswer3){
+                rightAnswer++;
+            }
+            
+            var selectedNameValue4 = $("input[name='question6']:checked").val();
+            if(selectedNameValue4 === correctAnswer4){
+                rightAnswer++;
+            }
+            
+            if(rightAnswer == 4){
+                $("#endResult").html('<img src="img/won.jpg" />')
+            }
+            else{
+                $("#endResult").html('<img src="img/lost.jpg" />')
+            }
+  
+            
+            console.log("selected name value for question 2", selectedNameValue1);
+            console.log("selected name value for question 4", selectedNameValue2);
+            console.log("selected name value for question 5", selectedNameValue3);
+            console.log("selected name value for question 6", selectedNameValue4);
+            
+        });
+    </script>
+</body>
+
+</html>
+
+
+<!--https://s2019cst336-blancamarquez.c9users.io/s2019cst336/Assignments/Project2/riddle.html-->
+
+
+
+<!--C9: https://s2019cst336-blancamarquez.c9users.io/s2019cst336/Assignments/Project2/ -->
+<!--GitHub: 

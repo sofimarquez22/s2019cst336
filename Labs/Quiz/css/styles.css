@@ -1,0 +1,36 @@
+#img1, #img2, #img3, #img4, #img5, #img6
+{
+    width: 50px;
+    height:auto;
+}
+#try, #flex2, #flex3, #flex4, #flex5, #flex6
+{
+    display:flex;
+}
+body
+{
+    background-color: #ffcf68;
+}
+.input-group label
+{
+   text-align: center;
+}
+p
+{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.checker
+{
+    margin
+    color: #71c120;
+    width:65px;
+    height:auto;
+}
+.top{
+    background-color:#edeff2;
+    color:#20385e;
+    height:70px;
+    width:auto;
+    opacity: 1;
+}

@@ -1,0 +1,28 @@
+#first, #second, #third, #fourth, #fifth, #sixth{
+    display:flex;
+}
+#textBox{
+    height:40px;
+    width:auto;
+}
+#pancakes{
+    background-color: #dbbed4;
+    border-style: groove;
+    border-radius: 5px;
+    border-width: thick;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 200s;
+}
+@-webkit-keyframes example {
+  0%   {border-color:orange;}
+  25%  {border-color:yellow;}
+  50%  {border-color:blue;}
+  75%  {border-color:green;}
+  100% {border-color:coral;}
+}
+#top{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    font-size: 180%;
+}
