@@ -1,0 +1,124 @@
+[24-Mar-2019 18:25:49 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 36
+[24-Mar-2019 18:39:53 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 22
+[24-Mar-2019 18:39:53 UTC] PHP Stack trace:
+[24-Mar-2019 18:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 18:39:53 UTC] PHP   2. generateCalendar() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:122
+[24-Mar-2019 18:39:53 UTC] PHP   3. createRandomMappings() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:52
+[24-Mar-2019 18:39:53 UTC] PHP   4. getImageForCountry() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:37
+[24-Mar-2019 18:39:53 UTC] PHP   5. shuffle() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:22
+[24-Mar-2019 18:39:53 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 23
+[24-Mar-2019 18:39:53 UTC] PHP Stack trace:
+[24-Mar-2019 18:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 18:39:53 UTC] PHP   2. generateCalendar() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:122
+[24-Mar-2019 18:39:53 UTC] PHP   3. createRandomMappings() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:52
+[24-Mar-2019 18:39:53 UTC] PHP   4. getImageForCountry() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:37
+[24-Mar-2019 18:39:53 UTC] PHP   5. array_pop() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:23
+[24-Mar-2019 18:39:53 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 22
+[24-Mar-2019 18:39:53 UTC] PHP Stack trace:
+[24-Mar-2019 18:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 18:39:53 UTC] PHP   2. generateCalendar() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:122
+[24-Mar-2019 18:39:53 UTC] PHP   3. createRandomMappings() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:52
+[24-Mar-2019 18:39:53 UTC] PHP   4. getImageForCountry() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:37
+[24-Mar-2019 18:39:53 UTC] PHP   5. shuffle() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:22
+[24-Mar-2019 18:39:53 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 23
+[24-Mar-2019 18:39:53 UTC] PHP Stack trace:
+[24-Mar-2019 18:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 18:39:53 UTC] PHP   2. generateCalendar() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:122
+[24-Mar-2019 18:39:53 UTC] PHP   3. createRandomMappings() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:52
+[24-Mar-2019 18:39:53 UTC] PHP   4. getImageForCountry() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:37
+[24-Mar-2019 18:39:53 UTC] PHP   5. array_pop() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:23
+[24-Mar-2019 18:39:53 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 22
+[24-Mar-2019 18:39:53 UTC] PHP Stack trace:
+[24-Mar-2019 18:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 18:39:53 UTC] PHP   2. generateCalendar() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:122
+[24-Mar-2019 18:39:53 UTC] PHP   3. createRandomMappings() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:52
+[24-Mar-2019 18:39:53 UTC] PHP   4. getImageForCountry() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:37
+[24-Mar-2019 18:39:53 UTC] PHP   5. shuffle() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:22
+[24-Mar-2019 18:39:53 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 23
+[24-Mar-2019 18:39:53 UTC] PHP Stack trace:
+[24-Mar-2019 18:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 18:39:53 UTC] PHP   2. generateCalendar() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:122
+[24-Mar-2019 18:39:53 UTC] PHP   3. createRandomMappings() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:52
+[24-Mar-2019 18:39:53 UTC] PHP   4. getImageForCountry() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:37
+[24-Mar-2019 18:39:53 UTC] PHP   5. array_pop() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:23
+[24-Mar-2019 18:42:15 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 22
+[24-Mar-2019 18:42:15 UTC] PHP Stack trace:
+[24-Mar-2019 18:42:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 18:42:15 UTC] PHP   2. generateCalendar() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:122
+[24-Mar-2019 18:42:15 UTC] PHP   3. createRandomMappings() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:52
+[24-Mar-2019 18:42:15 UTC] PHP   4. getImageForCountry() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:37
+[24-Mar-2019 18:42:15 UTC] PHP   5. shuffle() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:22
+[24-Mar-2019 18:42:15 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 23
+[24-Mar-2019 18:42:15 UTC] PHP Stack trace:
+[24-Mar-2019 18:42:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 18:42:15 UTC] PHP   2. generateCalendar() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:122
+[24-Mar-2019 18:42:15 UTC] PHP   3. createRandomMappings() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:52
+[24-Mar-2019 18:42:15 UTC] PHP   4. getImageForCountry() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:37
+[24-Mar-2019 18:42:15 UTC] PHP   5. array_pop() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:23
+[24-Mar-2019 18:42:15 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 22
+[24-Mar-2019 18:42:15 UTC] PHP Stack trace:
+[24-Mar-2019 18:42:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 18:42:15 UTC] PHP   2. generateCalendar() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:122
+[24-Mar-2019 18:42:15 UTC] PHP   3. createRandomMappings() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:52
+[24-Mar-2019 18:42:15 UTC] PHP   4. getImageForCountry() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:37
+[24-Mar-2019 18:42:15 UTC] PHP   5. shuffle() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:22
+[24-Mar-2019 18:42:15 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 23
+[24-Mar-2019 18:42:15 UTC] PHP Stack trace:
+[24-Mar-2019 18:42:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 18:42:15 UTC] PHP   2. generateCalendar() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:122
+[24-Mar-2019 18:42:15 UTC] PHP   3. createRandomMappings() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:52
+[24-Mar-2019 18:42:15 UTC] PHP   4. getImageForCountry() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:37
+[24-Mar-2019 18:42:15 UTC] PHP   5. array_pop() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:23
+[24-Mar-2019 18:42:15 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 22
+[24-Mar-2019 18:42:15 UTC] PHP Stack trace:
+[24-Mar-2019 18:42:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 18:42:15 UTC] PHP   2. generateCalendar() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:122
+[24-Mar-2019 18:42:15 UTC] PHP   3. createRandomMappings() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:52
+[24-Mar-2019 18:42:15 UTC] PHP   4. getImageForCountry() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:37
+[24-Mar-2019 18:42:15 UTC] PHP   5. shuffle() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:22
+[24-Mar-2019 18:42:15 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 23
+[24-Mar-2019 18:42:15 UTC] PHP Stack trace:
+[24-Mar-2019 18:42:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 18:42:15 UTC] PHP   2. generateCalendar() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:122
+[24-Mar-2019 18:42:15 UTC] PHP   3. createRandomMappings() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:52
+[24-Mar-2019 18:42:15 UTC] PHP   4. getImageForCountry() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:37
+[24-Mar-2019 18:42:15 UTC] PHP   5. array_pop() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:23
+[24-Mar-2019 20:27:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 105
+[24-Mar-2019 20:27:22 UTC] PHP Stack trace:
+[24-Mar-2019 20:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 20:27:22 UTC] PHP   2. displayErrors() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:150
+[24-Mar-2019 20:27:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 105
+[24-Mar-2019 20:27:24 UTC] PHP Stack trace:
+[24-Mar-2019 20:27:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 20:27:24 UTC] PHP   2. displayErrors() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:150
+[24-Mar-2019 20:27:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 105
+[24-Mar-2019 20:27:31 UTC] PHP Stack trace:
+[24-Mar-2019 20:27:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 20:27:31 UTC] PHP   2. displayErrors() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:150
+[24-Mar-2019 20:28:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 105
+[24-Mar-2019 20:28:02 UTC] PHP Stack trace:
+[24-Mar-2019 20:28:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 20:28:02 UTC] PHP   2. displayErrors() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:150
+[24-Mar-2019 20:28:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php on line 105
+[24-Mar-2019 20:28:06 UTC] PHP Stack trace:
+[24-Mar-2019 20:28:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:0
+[24-Mar-2019 20:28:06 UTC] PHP   2. displayErrors() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm1/midterm_practice1.php:150
+[25-Mar-2019 19:50:00 UTC] PHP Catchable fatal error:  Object of class PDO could not be converted to string in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm3/connect.php on line 29
+[25-Mar-2019 19:50:00 UTC] PHP Stack trace:
+[25-Mar-2019 19:50:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm3/index.php:0
+[25-Mar-2019 19:50:00 UTC] PHP   2. include() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm3/index.php:2
+[25-Mar-2019 19:50:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm3/index.php on line 7
+[25-Mar-2019 19:50:39 UTC] PHP Stack trace:
+[25-Mar-2019 19:50:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm3/index.php:0
+[25-Mar-2019 19:51:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm3/index.php on line 7
+[25-Mar-2019 19:51:28 UTC] PHP Stack trace:
+[25-Mar-2019 19:51:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm3/index.php:0
+[25-Mar-2019 19:51:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm3/index.php on line 7
+[25-Mar-2019 19:51:51 UTC] PHP Stack trace:
+[25-Mar-2019 19:51:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm3/index.php:0
+[25-Mar-2019 19:52:16 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm3/index.php on line 7
+[25-Mar-2019 19:52:16 UTC] PHP Stack trace:
+[25-Mar-2019 19:52:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm3/index.php:0
+[25-Mar-2019 19:54:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm3/index.php on line 7
+[25-Mar-2019 19:54:15 UTC] PHP Stack trace:
+[25-Mar-2019 19:54:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/s2019cst336/Practices/PracticeMidterm3/index.php:0
