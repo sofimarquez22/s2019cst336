@@ -33,7 +33,7 @@
                         data: {
                             "product" : $("[name=product]").val(),
                             "category" : $("[name=category]").val(),
-                            "priceFrom" : $("[name=priceFrom").val(),
+                            "priceFrom" : $("[name=priceFrom]").val(),
                             "priceTo" : $("[name=priceTo]").val(),
                             "orderBy" : $("[name=orderBy]:checked").val(),
                         },
