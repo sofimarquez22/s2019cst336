@@ -2,7 +2,6 @@
 <!--post comes with the webpage, is when you want it to be hidden, not bookmarks, can be used for passwords-->
 
 <?php
-//Time Stamp: 
 //print_r($_POST);//post creates an array
 $_POST;
 $months = array(

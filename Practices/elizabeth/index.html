@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        <script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+	    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    </head>
+    <body>
+        <h1> Discount Shopping! </h1>
+    
+        <table>
+        <tr id="table-head">
+            <th>Product</th>
+            <th>Unit Price</th>
+            <th> Quantity </th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td id="product-name">
+                <div id="productInfo">
+                    
+                </div>
+            </td>
+            <td id="product-price"></td>
+            <td><input id="product-quantity" type="text" size="5"></td>
+            <td id="product-total"></td>
+        </tr>
+        
+        <tr> 
+            <td class="products">
+                <select name="products">
+                    <option value=""> Select One </option>
+                </select>
+            </td>
+            <td></td>
+            <td><input id="product-quantity" type="text" size="5"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Discount</td>
+            <td></td>
+            <td id="discount" ></td>
+            <td ></td>
+        </tr>    
+            
+        <tr>
+            <td>Subtotal</td>
+            <td></td>
+            <td></td>
+            <td id="subtotal"></td>
+        </tr>             
+            
+        <tr>
+            <td>Tax (10%)</td>
+            <td></td>
+            <td></td>
+            <td id="tax"></td>
+        </tr>
+        
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td></td>
+            <td id="total"></td>
+        </tr>
+           
+        </table>
+        
+        <promo>
+            <label>Promo Code: </label>
+            <input id="promocode" type="text"/>
+        </promo>
+
+    </body>
+  
+  <script type="text/javascript" src="js/functions.js"></script>
+
+</html>
