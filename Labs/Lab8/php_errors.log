@@ -1,0 +1,25 @@
+[29-Apr-2019 02:31:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favorites.like' doesn't exist' in /home/ubuntu/workspace/s2019cst336/Labs/Lab8/api/allFavorites.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/s2019cst336/Labs/Lab8/api/allFavorites.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/s2019cst336/Labs/Lab8/api/allFavorites.php on line 10
+[29-Apr-2019 02:32:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favorites.like' doesn't exist' in /home/ubuntu/workspace/s2019cst336/Labs/Lab8/api/heart.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/s2019cst336/Labs/Lab8/api/heart.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/s2019cst336/Labs/Lab8/api/heart.php on line 10
+[29-Apr-2019 02:32:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favorites.like' doesn't exist' in /home/ubuntu/workspace/s2019cst336/Labs/Lab8/api/heart.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/s2019cst336/Labs/Lab8/api/heart.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/s2019cst336/Labs/Lab8/api/heart.php on line 10
+[29-Apr-2019 02:32:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favorites.like' doesn't exist' in /home/ubuntu/workspace/s2019cst336/Labs/Lab8/api/allFavorites.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/s2019cst336/Labs/Lab8/api/allFavorites.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/s2019cst336/Labs/Lab8/api/allFavorites.php on line 10
+[29-Apr-2019 02:32:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favorites.like' doesn't exist' in /home/ubuntu/workspace/s2019cst336/Labs/Lab8/api/allFavorites.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/s2019cst336/Labs/Lab8/api/allFavorites.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/s2019cst336/Labs/Lab8/api/allFavorites.php on line 10

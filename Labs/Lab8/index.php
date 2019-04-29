@@ -1,13 +1,12 @@
 <html>
   <head>
-  <title>Favorite</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <!--<link href="css/styles.css" rel="stylesheet" type="text/css" />-->
- 
-  <style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Favorite</title>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--<link href="css/styles.css" rel="stylesheet" type="text/css" />-->
+    <style>
     img{
       height: 300px;
     }
@@ -20,29 +19,24 @@
     .col{
       display: flex;
     }
-  </style>
-</head>
+    </style>
+  </head>
+  <body id="dummybodyid">
+    <h1> Favorite </h1>
+    <form>
+      <fieldset>
+        <legend>Favorite</legend>
+        <label>search images:</label><input type="text" id="query">
+        <button type = button id = "button" class="btn btn-primary">submit</button>
+        <button type = button id = "favorite" class="btn btn-primary">all favorites</button>
+        <div id="container"> </div>
+      </fieldset>
+    </form>
 
-<body id="dummybodyid">
-  <h1> Favorite </h1>
-
-  <form>
-    <fieldset>
-      <legend>Favorite</legend>
-      
-      <label>search images:</label><input type="text" id="query">
-      <button type = button id = "button">submit</button>
-      <button type = button id = "favorite">all favorites</button>
-      <div id="container"> </div>
-        
-    </fieldset>
-  </form>
-
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  
-  <script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
                 /* global $*/
                 $("#button").on("click", function(e)
                 {
@@ -51,7 +45,7 @@
                   $.ajax
                   ({
                     type:"GET",
-                    url: "pixabay.php",
+                    url: "api/pixabay.php",
                     dataType:"json",
                     data:
                     {
@@ -196,10 +190,8 @@
                 },
             });
         });
-  </script>
+    </script>
 </body>
-</html>
-
 
 </html>
 
