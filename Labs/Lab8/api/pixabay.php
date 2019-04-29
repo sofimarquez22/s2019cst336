@@ -1,5 +1,3 @@
-
-
 <?php
 //set up the API key for my test account
 $apiKey = $_GET['key'];
@@ -42,10 +40,5 @@ curl_close($cSession);
 $picData = json_decode($results);
 
 echo json_encode($picData->hits);
-
-
-
-
-
 
 ?>
