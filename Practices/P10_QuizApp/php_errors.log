@@ -1,0 +1,35 @@
+[29-Apr-2019 20:14:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@csumb.edu' at line 1' in /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php(13): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php on line 13
+[29-Apr-2019 20:14:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@csumb.edu' at line 1' in /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php(13): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php on line 13
+[29-Apr-2019 20:21:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@csumb.edu' at line 1' in /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php(13): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php on line 13
+[29-Apr-2019 20:22:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@csumb.edu' at line 1' in /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php(13): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php on line 13
+[29-Apr-2019 20:23:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@csumb.edu' at line 1' in /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php(13): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php on line 13
+[29-Apr-2019 20:25:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@csumb.edu' at line 1' in /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php on line 24
+[29-Apr-2019 20:27:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php(26): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/s2019cst336/Practices/P10_QuizApp/api/checkAnswer.php on line 26
