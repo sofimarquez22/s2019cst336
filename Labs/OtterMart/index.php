@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -125,19 +123,3 @@
         </div>
     </body>
 </html>
-
-
-<!--https://s2019cst336-blancamarquez.c9users.io/s2019cst336/Labs/OtterMart/index.php#-->
-
-
-<!--mysql://b2a82d6e9e2b03:64b2fe95@us-cdbr-iron-east-03.cleardb.net/heroku_2b7bbf75190f1ea?reconnect=true-->
-
-<!--database name: heroku_2b7bbf75190f1ea-->
-<!--username: b2a82d6e9e2b03-->
-<!--password: 64b2fe95-->
-<!--domain name: could be the same as database name-->
-<!--host name: us-cdbr-iron-east-03.cleardb.net-->
-
-
-
-<!--https://s2019cst336-blancamarquez.c9users.io/phpmyadmin-->
