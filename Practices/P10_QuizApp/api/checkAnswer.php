@@ -14,7 +14,7 @@ $stmt->execute();
 $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 if($records === false){
-    $sql = "INSERT INTO `quiz`(`email`, `score`, `taken`) VALUES ('" . $email . "'," . $points . ", 0)";
+    $sql = "INSERT INTO `quiz` VALUES ('" . $email . "'," . $points . ", 0)";
     $stmt = $conn->prepare($sql);
     $stmt->execute();
 }
