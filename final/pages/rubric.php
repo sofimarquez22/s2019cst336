@@ -80,7 +80,7 @@
                     <td style="text-align:left">Add Google Signin for app login</td>
                     <td style="text-align:left">10</td>
                 </tr>
-                <tr class = "incomplete">
+                <tr class = "sortOf">
                     <td style="text-align:left">BD</td>
                     <td style="text-align:left">The app is deployed to Heroku</td>
                     <td style="text-align:left">15</td>
