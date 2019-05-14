@@ -1,0 +1,38 @@
+ul {
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.active{
+  color:pink;
+}
+h1{
+  text-align: center;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+tr, th, td {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.complete{
+  background-color: #66ff8c;
+}
+.incomplete{
+  background-color: #ff3300;
+}

@@ -1,0 +1,39 @@
+[13-May-2019 20:35:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/final/php/insertUser.php on line 101
+[13-May-2019 20:35:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/final/php/insertUser.php on line 101
+[13-May-2019 20:35:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/final/php/insertUser.php on line 101
+[13-May-2019 20:35:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/final/php/insertUser.php on line 102
+[13-May-2019 20:37:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/final/php/insertUser.php on line 72
+[13-May-2019 20:37:39 UTC] PHP Stack trace:
+[13-May-2019 20:37:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/final/php/insertUser.php:0
+[13-May-2019 21:34:08 UTC] PHP Fatal error:  Array callback has to contain indices 0 and 1 in /home/ubuntu/workspace/final/pages/dashboard.php on line 4
+[13-May-2019 21:34:08 UTC] PHP Stack trace:
+[13-May-2019 21:34:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/final/pages/dashboard.php:0
+[13-May-2019 21:34:23 UTC] PHP Fatal error:  Array callback has to contain indices 0 and 1 in /home/ubuntu/workspace/final/pages/dashboard.php on line 4
+[13-May-2019 21:34:23 UTC] PHP Stack trace:
+[13-May-2019 21:34:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/final/pages/dashboard.php:0
+[13-May-2019 23:05:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/final/php/getSlot.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/final/php/getSlot.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/php/getSlot.php on line 9
+[13-May-2019 23:33:51 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/final/pages/logout.php on line 6
+[13-May-2019 23:33:51 UTC] PHP Stack trace:
+[13-May-2019 23:33:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/final/pages/logout.php:0
+[13-May-2019 23:34:50 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/final/pages/logout.php on line 6
+[13-May-2019 23:34:50 UTC] PHP Stack trace:
+[13-May-2019 23:34:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/final/pages/logout.php:0
+[14-May-2019 00:07:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/final/php/findId.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/final/php/findId.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/php/findId.php on line 10
+[14-May-2019 00:08:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/final/php/findId.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/final/php/findId.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/php/findId.php on line 10
+[14-May-2019 00:09:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/final/php/findId.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/final/php/findId.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/php/findId.php on line 10

@@ -1,4 +1,7 @@
 <?php
+
+include 'dbConnection.php';
+
 function filterUploadedFile(){
   $allowedTypes = array("text/plain","image/png");
   $allowedExtensions = array("txt", "png");
@@ -42,7 +45,6 @@ if(isset($_POST['uploadForm'])){
             echo "Type: " . $_FILES["fileName"]["type"] . "<br>";
             echo "Size: " . ($_FILES["fileName"]["size"] / 1024) . " KB<br>";
             echo "Stored in: " . $_FILES["fileName"]["tmp_name"];
-            include 'dbConnection.php';
             $binaryData = file_get_contents($_FILES["fileName"]["tmp_name"]);
             $sql = "INSERT INTO up_files (fileName, fileType, fileData ) " . "  VALUES (:fileName, :fileType, :fileData) ";
             $stm=$dbConn->prepare($sql);
